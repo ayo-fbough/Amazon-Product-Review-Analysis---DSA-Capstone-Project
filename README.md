@@ -30,5 +30,7 @@ A comprehensive analysis of 1,465 Amazon products spanning multiple categories u
 ## Analytic Tool
 Microsoft Excel 2019 [Download Here](https://microsoft-office-2019.en.uptodown.com/windows)
 
-
-
+## Data Cleaning
+### Step-by-Step Process
+-  *"Identification and Removal of Duplicates"*: 114 duplicates in product_id were identified and removed. This leaves the number of records at 1,351 unique products.
+-   correcting, and transforming raw data into a more accurate, complete, and reliable format for analysis. It involves handling missing values, removing duplicates, correcting errors, and standardizing data formats to ensure data quality and integrity.
