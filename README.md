@@ -6,5 +6,4 @@ A total of 1,465 Amazon products were analyzed across multiple categories; cover
 ## Dataset Profile
 -  Source: Data were scraped from Amazon website
 -  Number of Records: 1,465 rows
--  Number of Fields: 16
-[(Download the raw file )]
+-  Number of Fields: 16 
