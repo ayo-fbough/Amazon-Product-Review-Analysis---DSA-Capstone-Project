@@ -10,7 +10,7 @@ A comprehensive analysis of 1,465 Amazon products spanning multiple categories u
 -  Number of Fields: 16
 -  [Access the raw data here] ()
 
-## Analysis Tasks Achieved
+## Exploratory Data Analysis (EDA)
 
 1. Average discount percentage by category
 2. Number of products by category
@@ -48,5 +48,24 @@ A comprehensive analysis of 1,465 Amazon products spanning multiple categories u
 -  ***Creation of Subcategory***: The category is multi-level in nature. Thus, it was splitted into subcategory to ease analysis and visualisation, using the **Text to Column** tool.
 
 ## Analysis
-  
-  
+  ### Calculated Columns and Formulas
+  -  **`Total_Potential_Revenue`**: The values of this field were derieved by the product of `actual_price` and `rating_count`
+  -  **`Price_Range_Bucket`**`: The values of this filed were derieved from condition sets from the `discounted_price`
+    
+                    =IF(I60<1000,"<₹1000",IF(OR(I60=1000,I60<2000),"<₹2000",IF(OR(I60=2000,I60<3000),"<₹3000",IF(OR(I60=3000,I60<4000),"<₹4000",IF(OR(I60=4000,I60<5000),"<₹5000",IF(OR(I60=5000,I60<6000),"<₹6000",IF(OR(I60=6000,I60<7000),"<₹7000",IF(OR(I60=7000,I60<8000),"<₹8000",IF(OR(I60=8000,I60<9000),"<₹9000",IF(OR(I60=9000,I60<10000),"<₹10000",">₹10000"))))))))))
+     
+  -  **`Discount_Range_Bucket`**: The values of this field were derieved from conditions set to categorise `discount_percentage` for simplified analysis
+    
+                 =L2<=40%,"31-40%",IF(L2<=50%,"41-50%",IF(L2<=60%,"51-60%",IF(L2<=70%,"61-70%",IF(L2<=80%,"71-80%",IF(L2<=90%,"81-90%","91"-100%)))))))))
+
+  -  **`>=50% Discount_Percentage`**: The values for this field were obtained by setting conditions for `discount_[ercentage` to determine vales that are equal to or greater than 50%.
+
+                 =IF(L2>=50%,"Yes","No")
+
+### Pivot Table
+The pivot table facilitates the summarization and exploration of the dataset quickly and interactively. Pivot tables were utilized to efficiently analyze the data, allowing insights to be drawn by organizing and comparing key factors such as product categories, pricing tiers, discount rates, and customer engagement indicators
+
+## Visualisation
+
+
+
