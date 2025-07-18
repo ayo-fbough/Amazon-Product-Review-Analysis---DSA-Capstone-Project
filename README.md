@@ -66,6 +66,27 @@ A comprehensive analysis of 1,465 Amazon products spanning multiple categories u
 The pivot table facilitates the summarization and exploration of the dataset quickly and interactively. Pivot tables were utilized to efficiently analyze the data, allowing insights to be drawn by organizing and comparing key factors such as product categories, pricing tiers, discount rates, and customer engagement indicators
 
 ## Visualisation
+The dataset was presented through an interactive dashboard featuring a variety of visualizations, including bar charts, clustered columns, line graphs, and KPI cards to effectively highlight key insights.
 
+## Insights Drawn From the Analysis
 
+- **Number of Products with ≥50% Discount**: Over 49% (662 out of 1351) of the products are being heavily discounted. This may suggest:
+    -  Overstock or clearance strategies
+    -  Attempts to boost visibility or sales velocity
+    -  High competition in price-sensitive categories
 
+Implication: Discounting is being used aggressively. This may impact profit margins if not carefully managed.
+
+-  **Number of Products with < 1,000 Reviews**:	Roughly 23% of products have very low engagement (<1,000 reviews).
+
+Implication: These products may suffer from low visibility or traffic and weak marketing or poor product-market fit
+
+-  **Product Category Distribution**: Home and Kitchen, Health and Personal Carem Electronics and Office products are the major product category. This shows that purchases are heavily reliant on Home & Kitchen, Health & Personal Care, and Electronics. While this portrays the risk of overdependence on a few categories, it equally shows the area of potential concentration. Health & Personal Care and Electronics do not only have a high number of products but also strong review volumes, showing strong customer interest and performance.
+
+-  **Product Rating Distribution**
+
+    -  Ratings cluster heavily between 3.8 and 4.4.
+    -  Very few products rated below 3.5 or above 4.8.
+    -  Only a handful of products achieved 5-star ratings.
+ 
+  This indicates generally positive customer sentiment, but also that most products are not seen as *“outstanding.”* There may be room for product or service enhancement.
