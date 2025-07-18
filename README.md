@@ -98,5 +98,3 @@ Implication: These products may suffer from low visibility or traffic and weak m
 -  Electronics dominate revenue and engagement: Despite stiff competition, Electronics have the highest number of reviews and potential revenue.
 
 -  High ratings are achievable: Top products consistently receive near-perfect scores, showing that quality and satisfaction can go hand-in-hand.
-
--  
