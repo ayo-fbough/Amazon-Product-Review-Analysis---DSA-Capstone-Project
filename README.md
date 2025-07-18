@@ -90,3 +90,13 @@ Implication: These products may suffer from low visibility or traffic and weak m
     -  Only a handful of products achieved 5-star ratings.
  
   This indicates generally positive customer sentiment, but also that most products are not seen as *“outstanding.”* There may be room for product or service enhancement.
+
+## Conclusions
+
+-  Discounts drive visibility: Over half of all products with deep discounts (≥50%) appear across categories with strong review volumes.
+
+-  Electronics dominate revenue and engagement: Despite stiff competition, Electronics have the highest number of reviews and potential revenue.
+
+-  High ratings are achievable: Top products consistently receive near-perfect scores, showing that quality and satisfaction can go hand-in-hand.
+
+-  
