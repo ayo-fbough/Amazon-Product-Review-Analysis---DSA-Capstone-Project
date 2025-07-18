@@ -8,7 +8,7 @@ A comprehensive analysis of 1,465 Amazon products spanning multiple categories u
 -  Source: The dataset were scraped from Amazon product pages
 -  Number of Records: 1,465 rows
 -  Number of Fields: 16
--  [Access the raw data here] ()
+-  [Access the raw data here](https://github.com/ayo-fbough/Amazon-Product-Review-Analysis---DSA-Capstone-Project/blob/main/Amazon%20Product%20Review%20Analysis.xlsx)
 
 ## Exploratory Data Analysis (EDA)
 
