@@ -28,7 +28,14 @@ A comprehensive analysis of 1,465 Amazon products spanning multiple categories u
 14. Top 5 products in terms of rating and number of reviews combined
 
 ## Analytic Tool
-Microsoft Excel 2019 [Download Here](https://microsoft-office-2019.en.uptodown.com/windows)
+- [Microsoft Excel 2019](https://microsoft-office-2019.en.uptodown.com/windows) for the data cleaning and wrangling.
+-  Skills Applied:
+  
+        - Data cleaning and formatting
+        -  Pivot Tables & Charts
+        -  Conditional formatting
+        -  Dashboard creation
+
 
 ## Data Cleaning
 ### Step-by-Step Process
@@ -38,5 +45,8 @@ Microsoft Excel 2019 [Download Here](https://microsoft-office-2019.en.uptodown.c
       -  The `actual_price` column had a value **1,39,900** which was corrected to **139,000**. The data type was changed to accounting and the currency symbol **"₹"** was assigned to the column.
       -  The `rating` column had a value **|** which was replaced with a zero.
       -  The `rating_count` column had two cells that were blank. Each blank cell was assigned zero.
+-  ***Creation of Subcategory***: The category is multi-level in nature. Thus, it was splitted into subcategory to ease analysis and visualisation, using the **Text to Column** tool.
+
+## Analysis
   
   
