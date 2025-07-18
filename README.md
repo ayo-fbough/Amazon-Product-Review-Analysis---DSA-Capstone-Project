@@ -32,5 +32,11 @@ Microsoft Excel 2019 [Download Here](https://microsoft-office-2019.en.uptodown.c
 
 ## Data Cleaning
 ### Step-by-Step Process
--  *"Identification and Removal of Duplicates"*: 114 duplicates in product_id were identified and removed. This leaves the number of records at 1,351 unique products.
--   correcting, and transforming raw data into a more accurate, complete, and reliable format for analysis. It involves handling missing values, removing duplicates, correcting errors, and standardizing data formats to ensure data quality and integrity.
+-  ***Identification and Removal of Duplicates***: 114 duplicates in `product_id` were identified and removed. This leaves the number of records at 1,351 unique products.
+-  ***Removal of Unnecessary Columns***: Columns/fields that were not needed for the analysis were rempoved to make the dataset more manageable and easier to analyse, improves performance, enhances focus on relevant features and variables, minimizes noise and simplify data visualization.
+-  ***Data Validation***: The filter tool was used to validate data type consistency of the values in each of the columns.
+      -  The `actual_price` column had a value **1,39,900** which was corrected to **139,000**. The data type was changed to accounting and the currency symbol **"₹"** was assigned to the column.
+      -  The `rating` column had a value **|** which was replaced with a zero.
+      -  The `rating_count` column had two cells that were blank. Each blank cell was assigned zero.
+  
+  
